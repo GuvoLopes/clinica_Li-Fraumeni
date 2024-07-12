@@ -1,14 +1,15 @@
 # clinica_Li-Fraumeni
 Desenvolvimento de um site de uma clínica médica. Desafio de programação.
+Abra o arquivo index.html no navegador e teste o site.
 
-## Instruções
+### Instruções
 Eu precisava criar um site de uma clínica médica genérica. E este site deveria conter o seguinte menu de navegação:
 * Página Principal
 * Sobre a clínica
 * Horário de Atendimento
 * Contato
 
-## Estrutura das Páginas
+### Estrutura das Páginas
 No Menu, ficará localizado o menu de navegação, no Header de cada página ficará uma imagem, no Footer informações de contato, e o Content é o conteúdo de cada página.
 * Na página principal deve ter uma breve descrição sobre a clínica.
 * Na página sobre a clínica deve ter um texto falando sobre a clínica.
