@@ -1,0 +1,169 @@
+/* Configurações básicas para o body e a wrapper */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Configurações para o menu */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Configurações para a main */
+.main {
+    margin-left: 220px;
+    width: calc(100% - 240px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configurações para o header */
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço do header */
+}
+
+/* Configurações para o content */
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.content table, .content th, .content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.content th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+.content tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.content tr:hover {
+    background-color: #ddd;
+}
+
+/* Configurações para o footer */
+.footer {
+    background-color: rgb(50, 50, 70);
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.form-buttons button:hover {
+    background-color: #45a049;
+}
+
+.form-buttons button[type="reset"] {
+    background-color: #f44336;
+}
+
+.form-buttons button[type="reset"]:hover {
+    background-color: #e53935;
+}
